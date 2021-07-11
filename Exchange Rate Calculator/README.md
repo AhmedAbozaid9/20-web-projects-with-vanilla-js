@@ -1,0 +1,1 @@
+try it from [here](https://ahmedexchangeratecalculator.netlify.app/)
