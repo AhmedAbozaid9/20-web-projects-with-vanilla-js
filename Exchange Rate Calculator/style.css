@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:rgb(240, 240, 240);
+}
+h1 {
+  color: #5fbaa7;
+  margin-bottom: 0;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.container {
+  margin: 30px 10px;
+}
+.currency {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+.currency1 input {
+    background-color: #fff;
+}
+.container .swap {
+  background-color: #5fbaa7;
+  color: white;
+  border: #ebebeb;
+  font-size: 20px;
+  padding: 10px 22px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .swap:active {
+  background-color: #6dd3bd;
+}
+select,
+input {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+}
+input {
+  border: 5px;
+  text-align: right;
+}
+.rate{
+    font-size: 22px;
+    color: #5fbaa7;
+}
+.rateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
